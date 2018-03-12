@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:JCam"
+             x:Class="JCam.MainPage"
+              Title="Camera Access"    
+             BackgroundColor="Gray">
+    <StackLayout>
+
+        <Button x:Name="takePhoto" Text="Click A Photo" />
+        <Image x:Name="image"/>
+    </StackLayout>
+    
+</ContentPage>
